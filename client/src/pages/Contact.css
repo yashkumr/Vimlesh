@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.contact {
+    width: 100%;
+    margin: auto;
+}
+
+.background {
+
+
+    height: 53dvh;
+    background-image: url('../../public/images/5.JPG');
+    width: 100%;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    object-fit: contain;
+    /* object-fit: fill;
+    object-fit: cover; */
+    position: relative;
+}
+
+.img-contact {
+
+    width: 85%;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+
+}
+
+.img-contact>p {
+    color: rgb(205, 193, 193);
+    text-decoration: none;
+    width: 70%;
+    margin: auto;
+
+}
+
+.img-contact>p>span:nth-child(1) {
+    text-decoration: none;
+    font-weight: bold;
+    /* float: right; */
+
+}
